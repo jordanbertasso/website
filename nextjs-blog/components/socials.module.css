@@ -1,0 +1,21 @@
+.socialsGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.socialItem {
+    color: white;
+    width: 5rem;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+.socialItem:hover {
+    width: 6rem;
+}

@@ -1,11 +1,20 @@
+:root {
+    --background-colour: rgb(24, 26, 27);
+}
+
+#__next {
+    height: 100%;
+}
 html,
 body {
+    background-color: var(--background-colour);
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     line-height: 1.6;
     font-size: 18px;
+    height: 100%;
 }
 
 * {
@@ -13,7 +22,7 @@ body {
 }
 
 a {
-    color: #0070f3;
+    color: var(--background-colour);
     text-decoration: none;
 }
 
