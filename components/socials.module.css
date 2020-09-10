@@ -1,3 +1,22 @@
+@media only screen and (max-width: 600px) {
+    .socialsGrid {
+        column-gap: 2.5rem;
+    }
+
+    .socialItem {
+        width: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .socialsGrid {
+        column-gap: 4rem;
+    }
+    .socialItem {
+        width: 3rem;
+    }
+}
+
 .socialsOuter {
     position: inherit;
     display: flex;
@@ -9,7 +28,7 @@
     position: absolute;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 4rem;
+    /* column-gap: 4rem; */
     padding-top: 0.5rem;
     /* padding: 0px; */
     /* justify-self: center; */
@@ -19,7 +38,6 @@
 .socialItem {
     position: relative;
     color: white;
-    width: 3rem;
     /* padding-left: 1rem;
     padding-right: 1rem; */
     transition-timing-function: ease-in-out;
