@@ -1,5 +1,6 @@
 :root {
-    --background-colour: rgb(24, 26, 27);
+    /* --background-colour: rgb(24, 26, 27); */
+    --background-colour: #202020;
 }
 
 #__next {
