@@ -3,7 +3,8 @@
     line-height: 1.2;
     font-weight: 800;
     letter-spacing: -0.05rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    color: white;
 }
 
 .headingXl {
@@ -11,7 +12,8 @@
     line-height: 1.3;
     font-weight: 800;
     letter-spacing: -0.05rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    color: white;
 }
 
 .headingLg {

@@ -1,21 +1,32 @@
+.socialsOuter {
+    position: inherit;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
 .socialsGrid {
+    position: absolute;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0px;
+    column-gap: 4rem;
+    padding-top: 0.5rem;
+    /* padding: 0px; */
+    /* justify-self: center; */
     justify-content: space-evenly;
 }
 
 .socialItem {
+    position: relative;
     color: white;
-    width: 5rem;
-    /* padding-top: 1rem; */
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 3rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
     transition-timing-function: ease-in-out;
     transition-property: all;
     transition-duration: 150ms;
 }
 
 .socialItem:hover {
-    width: 6rem;
+    width: 4rem;
 }

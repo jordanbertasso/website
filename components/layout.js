@@ -22,15 +22,9 @@ export default function Layout({ children }) {
                     <img
                         src="/images/avatar.gif"
                         className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                        alt={name}
+                        alt={`${name} avatar`}
                     />
-                    <h1
-                        className={
-                            (utilStyles.heading2Xl, utilStyles.whiteText)
-                        }
-                    >
-                        {name}
-                    </h1>
+                    <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     <Socials></Socials>
                 </>
             </header>
