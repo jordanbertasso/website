@@ -5,6 +5,7 @@ import {
     faLinkedin,
     faGithub,
     faTwitter,
+    faFontAwesomeFlag,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Socials() {
@@ -22,6 +23,10 @@ export default function Socials() {
                 <SocialLink
                     link="https://twitter.com/jordanbertasso"
                     icon={faTwitter}
+                ></SocialLink>
+                <SocialLink
+                    link="https://downunderctf.com/"
+                    icon={faFontAwesomeFlag}
                 ></SocialLink>
             </div>
         </div>
