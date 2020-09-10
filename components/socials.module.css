@@ -15,6 +15,9 @@
     .socialItem {
         width: 3rem;
     }
+    .socialItem:hover {
+        width: 4rem;
+    }
 }
 
 .socialsOuter {
@@ -43,8 +46,4 @@
     transition-timing-function: ease-in-out;
     transition-property: all;
     transition-duration: 150ms;
-}
-
-.socialItem:hover {
-    width: 4rem;
 }
