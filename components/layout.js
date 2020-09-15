@@ -20,7 +20,7 @@ export default function Layout({ children }) {
             <header className={styles.header}>
                 <>
                     <img
-                        src="/images/avatar.gif"
+                        src="/images/avatar-optimised.gif"
                         className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                         alt={`${name} avatar`}
                     />
