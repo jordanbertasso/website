@@ -1,4 +1,4 @@
-import styles from "./socials.module.css";
+import styles from "../styles/socials.module.css";
 import SocialLink from "./socialLink";
 
 import {
